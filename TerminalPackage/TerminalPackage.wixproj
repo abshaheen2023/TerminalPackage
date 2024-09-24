@@ -1,0 +1,80 @@
+﻿<Project Sdk="WixToolset.Sdk/5.0.1">
+  <PropertyGroup>
+    <OutputType>Package</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="BillConfig.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Include your .wxs file(s) here -->
+    <Wix Include="Product.wxs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TerminalTools\Azure.Core.dll" />
+    <None Include="TerminalTools\Azure.Identity.dll" />
+    <None Include="TerminalTools\DailyReceipts.deps.json" />
+    <None Include="TerminalTools\DailyReceipts.dll" />
+    <None Include="TerminalTools\DailyReceipts.exe" />
+    <None Include="TerminalTools\DailyReceipts.pdb" />
+    <None Include="TerminalTools\DailyReceipts.runtimeconfig.json" />
+    <None Include="TerminalTools\Microsoft.Bcl.AsyncInterfaces.dll" />
+    <None Include="TerminalTools\Microsoft.Data.SqlClient.dll" />
+    <None Include="TerminalTools\Microsoft.Data.Sqlite.dll" />
+    <None Include="TerminalTools\Microsoft.Identity.Client.dll" />
+    <None Include="TerminalTools\Microsoft.Identity.Client.Extensions.Msal.dll" />
+    <None Include="TerminalTools\Microsoft.Identity.Client.NativeInterop.dll" />
+    <None Include="TerminalTools\Microsoft.IdentityModel.Abstractions.dll" />
+    <None Include="TerminalTools\Microsoft.IdentityModel.JsonWebTokens.dll" />
+    <None Include="TerminalTools\Microsoft.IdentityModel.Logging.dll" />
+    <None Include="TerminalTools\Microsoft.IdentityModel.Protocols.dll" />
+    <None Include="TerminalTools\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" />
+    <None Include="TerminalTools\Microsoft.IdentityModel.Tokens.dll" />
+    <None Include="TerminalTools\Microsoft.SqlServer.Server.dll" />
+    <None Include="TerminalTools\Microsoft.Web.WebView2.Core.dll" />
+    <None Include="TerminalTools\Microsoft.Web.WebView2.WinForms.dll" />
+    <None Include="TerminalTools\Microsoft.Web.WebView2.Wpf.dll" />
+    <None Include="TerminalTools\Newtonsoft.Json.dll" />
+    <None Include="TerminalTools\PrinterSettingsTool.deps.json" />
+    <None Include="TerminalTools\PrinterSettingsTool.dll" />
+    <None Include="TerminalTools\PrinterSettingsTool.exe" />
+    <None Include="TerminalTools\PrinterSettingsTool.pdb" />
+    <None Include="TerminalTools\PrinterSettingsTool.runtimeconfig.json" />
+    <None Include="TerminalTools\RashidConfiguration.deps.json" />
+    <None Include="TerminalTools\RashidConfiguration.dll" />
+    <None Include="TerminalTools\RashidConfiguration.exe" />
+    <None Include="TerminalTools\RashidConfiguration.pdb" />
+    <None Include="TerminalTools\RashidConfiguration.runtimeconfig.json" />
+    <None Include="TerminalTools\SQLitePCLRaw.batteries_v2.dll" />
+    <None Include="TerminalTools\SQLitePCLRaw.core.dll" />
+    <None Include="TerminalTools\SQLitePCLRaw.provider.e_sqlite3.dll" />
+    <None Include="TerminalTools\System.IdentityModel.Tokens.Jwt.dll" />
+    <None Include="TerminalTools\System.Memory.Data.dll" />
+    <None Include="TerminalTools\System.Runtime.Caching.dll" />
+	<None Include="TerminalTools\System.Drawing.Common.dll" />
+	<None Include="TerminalTools\Terminal.deps.json" />
+    <None Include="TerminalTools\Terminal.dll" />
+    <None Include="TerminalTools\Terminal.dll.config" />
+    <None Include="TerminalTools\Terminal.pdb" />
+    <None Include="TerminalTools\Terminal.runtimeconfig.json" />
+    <None Include="TerminalTools\Terminal.exe" />
+	<None Include="TerminalTools\RasheedTag.dll" />
+    <None Include="TerminalTools\runtimes\win-x64\native\e_sqlite3.dll" />
+    <None Include="TerminalTools\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <None Include="TerminalTools\runtimes\win-x64\native\msalruntime.dll" />
+    <None Include="TerminalTools\runtimes\win-x64\native\WebView2Loader.dll" />
+    <None Include="TerminalTools\runtimes\win-x86\native\e_sqlite3.dll" />
+    <None Include="TerminalTools\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll" />
+    <None Include="TerminalTools\runtimes\win-x86\native\msalruntime_x86.dll" />
+    <None Include="TerminalTools\runtimes\win-x86\native\WebView2Loader.dll" />
+    <None Include="TerminalTools\runtimes\win\lib\net8.0\System.Runtime.Caching.dll" />
+    <None Include="TerminalTools\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll" />
+	<None Include="TerminalTools\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll"/>
+	<None Include="TerminalTools\SQLitePCLRaw.provider.e_sqlcipher.dll"/>
+	<None Include="TerminalTools\zxing.dll"/>
+	<None Include="TerminalTools\ZXing.Windows.Compatibility.dll"/>
+	<None Include="TerminalTools\SQLite-net.dll"/>
+	<None Include="TerminalTools\System.Private.Windows.Core.dll"/>
+	<None Include="TerminalTools\Microsoft.Win32.SystemEvents.dll"/>
+
+  </ItemGroup>
+</Project>

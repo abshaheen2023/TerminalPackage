@@ -1,0 +1,10 @@
+BuiltContentOutput	E:\Repos\VirtualPrinter\TerminalPackage\TerminalPackage\obj\x86\Debug\en-US\cab1.cab
+BuiltPdbOutput	E:\Repos\VirtualPrinter\TerminalPackage\TerminalPackage\obj\x86\Debug\en-US\TerminalPackage.wixpdb
+BuiltTargetOutput	E:\Repos\VirtualPrinter\TerminalPackage\TerminalPackage\obj\x86\Debug\en-US\TerminalPackage.msi
+Input	PrinterAdjustmentTool.deps.json
+Input	PrinterAdjustmentTool.dll
+Input	PrinterAdjustmentTool.exe
+Input	PrinterAdjustmentTool.pdb
+Input	PrinterAdjustmentTool.runtimeconfig.json
+Input	Terminal.exe
+Intermediate	E:\Repos\VirtualPrinter\TerminalPackage\TerminalPackage\obj\x86\Debug\en-US\cab1.cab

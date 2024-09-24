@@ -1,0 +1,282 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Fragment>
+    <StandardDirectory Id="ProgramFiles6432Folder">
+		
+				<Directory Id="INSTALLFOLDER" Name="!(bind.Property.ProductName)" >
+					<Directory Id="TOOLSDIR" Name="Tools" >
+						<Component Id="MainExecutable" Guid="{CA8E2C91-A815-4A08-8C87-CEE9721244C4}">
+							<File Id="MyExeFile1" Source="TerminalTools\Terminal.exe" />
+							<File Id="MyExeFile2" Source="TerminalTools\PrinterSettingsTool.exe" />
+							<File Id="MyExeFile3" Source="TerminalTools\DailyReceipts.exe" />
+							<File Id="MyExeFile4" Source="TerminalTools\RashidConfiguration.exe" />
+							<File Id="MyFile1"    Source="TerminalTools\PrinterSettingsTool.deps.json" />
+							<File Id="MyFile2"    Source="TerminalTools\PrinterSettingsTool.dll" />
+							<File Id="MyFile3"    Source="TerminalTools\PrinterSettingsTool.pdb" />
+							<File Id="MyFile4"    Source="TerminalTools\PrinterSettingsTool.runtimeconfig.json" />
+							<File Id="MyFile5"	  Source="TerminalTools\DailyReceipts.deps.json" />
+							<File Id="MyFile6" 	  Source="TerminalTools\DailyReceipts.dll" />
+							<File Id="MyFile7" 	  Source="TerminalTools\DailyReceipts.pdb" />
+							<File Id="MyFile8" 	  Source="TerminalTools\DailyReceipts.runtimeconfig.json" />
+							<File Id="MyFile9"    Source="TerminalTools\RashidConfiguration.deps.json" />
+							<File Id="MyFile10"   Source="TerminalTools\RashidConfiguration.dll" />
+							<File Id="MyFile11"   Source="TerminalTools\RashidConfiguration.pdb" />
+							<File Id="MyFile12"	  Source="TerminalTools\RashidConfiguration.runtimeconfig.json" />
+							<File Id="MyFile13"   Source="TerminalTools\Microsoft.Bcl.AsyncInterfaces.dll" />
+							<File Id="MyFile14"   Source="TerminalTools\Microsoft.Data.SqlClient.dll" />
+							<File Id="MyFile15"   Source="TerminalTools\Microsoft.Data.Sqlite.dll" />
+							<File Id="MyFile16"   Source="TerminalTools\Microsoft.Identity.Client.dll" />
+							<File Id="MyFile17"   Source="TerminalTools\Microsoft.Identity.Client.Extensions.Msal.dll" />
+							<File Id="MyFile18"   Source="TerminalTools\Microsoft.Identity.Client.NativeInterop.dll" />
+							<File Id="MyFile19"	  Source="TerminalTools\Microsoft.IdentityModel.Abstractions.dll" />
+							<File Id="MyFile20"   Source="TerminalTools\Microsoft.IdentityModel.JsonWebTokens.dll" />
+							<File Id="MyFile21"	  Source="TerminalTools\Microsoft.IdentityModel.Logging.dll" />
+							<File Id="MyFile22"   Source="TerminalTools\Microsoft.IdentityModel.Protocols.dll" />
+							<File Id="MyFile23"   Source="TerminalTools\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" />
+							<File Id="MyFile24"	  Source="TerminalTools\Microsoft.IdentityModel.Tokens.dll" />
+							<File Id="MyFile25"   Source="TerminalTools\Microsoft.SqlServer.Server.dll" />
+							<File Id="MyFile26"	  Source="TerminalTools\Microsoft.Web.WebView2.Core.dll" />
+							<File Id="MyFile27"	  Source="TerminalTools\Microsoft.Web.WebView2.WinForms.dll" />
+							<File Id="MyFile28"   Source="TerminalTools\Microsoft.Web.WebView2.Wpf.dll" />
+							<File Id="MyFile29"	  Source="TerminalTools\Newtonsoft.Json.dll" />
+							<File Id="MyFile30"   Source="TerminalTools\SQLitePCLRaw.batteries_v2.dll" />
+							<File Id="MyFile31"   Source="TerminalTools\SQLitePCLRaw.core.dll" />
+							<File Id="MyFile33"   Source="TerminalTools\System.IdentityModel.Tokens.Jwt.dll" />
+							<File Id="MyFile34"   Source="TerminalTools\System.Memory.Data.dll" />
+							<File Id="MyFile35"   Source="TerminalTools\System.Runtime.Caching.dll" />
+							<File Id="MyFile46"   Source="TerminalTools\System.Drawing.Common.dll" />
+							<File Id="MyFile36"   Source="TerminalTools\Terminal.deps.json" />
+							<File Id="MyFile37"   Source="TerminalTools\Terminal.dll" />
+							<File Id="MyFile38"	  Source="TerminalTools\Terminal.dll.config" />
+						    <File Id="MyFile39"	  Source="TerminalTools\Terminal.pdb" />
+						    <File Id="MyFile40"	  Source="TerminalTools\Terminal.runtimeconfig.json" />
+							<File Id="MyFile41"   Source="TerminalTools\Azure.Core.dll" />
+							<File Id="MyFile42"	  Source="TerminalTools\Azure.Identity.dll" />
+							<File Id="MyFile43"	  Source="TerminalTools\RasheedTag.dll" />
+							<File Id="MyFile45"   Source="TerminalTools\SQLitePCLRaw.provider.e_sqlcipher.dll"/>
+							<File Id="MyFile47"   Source="TerminalTools\zxing.dll"/>
+							<File Id="MyFile48"   Source="TerminalTools\ZXing.Windows.Compatibility.dll"/>
+							<File Id="MyFile49"   Source="TerminalTools\SQLite-net.dll"/>
+							<File Id="MyFile50"   Source="TerminalTools\System.Private.Windows.Core.dll"/>
+							<File Id="MyFile51"   Source="TerminalTools\Microsoft.Win32.SystemEvents.dll"/>
+
+
+						</Component>
+							<Directory Id="DeLocaleDir" Name="de">
+								<Component Id="DeLocaleComponent1" Guid="{E88736CB-2B06-43BA-A158-E26397B414B4}">
+									<!-- Add localized files here -->
+									<File Id="LocalizedFile1" Source="TerminalTools\de\Microsoft.Data.SqlClient.resources.dll" />
+								</Component>
+							</Directory>
+							<Directory Id="EsLocaleDir" Name="es">
+								<Component Id="EsLocaleComponent2" Guid="{A3F50450-6EF8-46D0-835D-A91563E0714B}">
+									<!-- Add localized files here -->
+									<File Id="LocalizedFile2" Source="TerminalTools\es\Microsoft.Data.SqlClient.resources.dll" />
+								</Component>
+							</Directory>
+					      <Directory Id="BRLocaleDir" Name="pt-BR">
+								<Component Id="DeLocaleComponent3" Guid="{47A255E6-34DB-4FA6-8FE4-DF657B796A96}">
+									<!-- Add localized files here -->
+									<File Id="LocalizedFile3" Source="TerminalTools\pt-BR\Microsoft.Data.SqlClient.resources.dll" />
+								</Component>
+							</Directory>
+							
+						<Directory Id="zhHansDir" Name="zh-Hans">
+								<Component Id="zhHansComponent1" Guid="{AD3E3BC1-78FE-4B19-ACE6-7B988C94CCEA}">
+									<!-- Add localized files here -->
+									<File Id="zhHansFile" Source="TerminalTools\zh-Hans\Microsoft.Data.SqlClient.resources.dll" />
+								</Component>
+							</Directory>
+								<Directory Id="zhHantDir" Name="zh-Hant">
+								<Component Id="zhHantComponent1" Guid="{B2107210-502F-4AE0-8E6D-82C1E42F8AD4}">
+									<!-- Add localized files here -->
+									<File Id="zhHantFile" Source="TerminalTools\zh-Hant\Microsoft.Data.SqlClient.resources.dll" />
+								</Component>
+							</Directory>
+							
+						<Directory Id="RuntimesDir" Name="runtimes">
+							    <Directory Id="WinX64Dir" Name="win-x64">
+									<Directory Id="NativeX64Dir" Name="native">
+								<Component Id="RuntimesComponentx64" Guid="{888BEA73-04B3-44BE-A0E4-1FCC83DF8F47}">
+									<!-- Add runtime files here -->
+									<File Id="RuntimeFile1" Source="TerminalTools\runtimes\win-x64\native\e_sqlcipher.dll" />
+									<File Id="RuntimeFile2" Source="TerminalTools\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll" />
+									<File Id="RuntimeFile3" Source="TerminalTools\runtimes\win-x64\native\msalruntime.dll" />
+									<File Id="RuntimeFile4" Source="TerminalTools\runtimes\win-x64\native\WebView2Loader.dll" />
+									
+									</Component>
+							</Directory>
+							</Directory>
+							<Directory Id="WinX86Dir" Name="win-x86">
+							<Directory Id="NativeX86Dir" Name="native">
+								<Component Id="RuntimesComponentx86" Guid="{F9C87C96-6290-46F7-85D0-23639F3E84E3}">
+
+								<File Id="RuntimeFile5" Source="TerminalTools\runtimes\win-x86\native\e_sqlcipher.dll" />
+								<File Id="RuntimeFile6" Source="TerminalTools\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll" />
+								<File Id="RuntimeFile7" Source="TerminalTools\runtimes\win-x86\native\msalruntime_x86.dll" />
+								<File Id="RuntimeFile8" Source="TerminalTools\runtimes\win-x86\native\WebView2Loader.dll" />
+							
+							</Component>
+				</Directory>
+				</Directory>
+							
+								  <Directory Id="WinarmDir" Name="win-arm">
+									<Directory Id="nativeDir" Name="native">
+								<Component Id="RuntimesComponentwinarm" Guid="{6E9CC941-6A84-4335-A05B-24CC815A022A}">
+									<!-- Add runtime files here -->
+									<File Id="RuntimeFile9"  Source="TerminalTools\runtimes\win-arm\native\e_sqlcipher.dll" />
+									<File Id="RuntimeFile10" Source="TerminalTools\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll" />
+							
+									</Component>
+							</Directory>
+							</Directory>
+								  <Directory Id="Winarm64Dir" Name="win-arm64">
+									<Directory Id="native2Dir" Name="native">
+								<Component Id="RuntimesComponentwinarm64" Guid="{1C243EBB-8CA1-4678-841E-1A5BD2836CC3}">
+									<!-- Add runtime files here -->
+									<File Id="RuntimeFile11"  Source="TerminalTools\runtimes\win-arm64\native\e_sqlcipher.dll" />
+									<File Id="RuntimeFile12"  Source="TerminalTools\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll" />
+									<File Id="RuntimeFile13"  Source="TerminalTools\runtimes\win-arm64\native\msalruntime_arm64.dll" />
+									<File Id="RuntimeFile14"  Source="TerminalTools\runtimes\win-arm64\native\WebView2Loader.dll" />
+							
+									</Component>
+							</Directory>
+							</Directory>
+						  <Directory Id="WinDir" Name="win">
+									<Directory Id="libDir" Name="lib">
+										<Directory Id="net80Dir" Name="net8.0">
+								<Component Id="RuntimesComponentwin" Guid="{E49FDFA0-BF2C-4740-AC12-B8B26C31B420}">
+									<!-- Add runtime files here -->
+									<File Id="RuntimeFile15"  Source="TerminalTools\runtimes\win\lib\net8.0\System.Runtime.Caching.dll" />
+									<File Id="RuntimeFile16"  Source="TerminalTools\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll" />
+									<File Id="RuntimeFile50"  Source="TerminalTools\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll"/>
+								</Component>
+							</Directory>
+							</Directory>
+						</Directory>
+							
+						  <Directory Id="browserwasmDir" Name="browser-wasm">
+									<Directory Id="nativeassetsDir" Name="nativeassets">
+										<Directory Id="net7Dir" Name="net7.0">
+								<Component Id="RuntimesComponentwasm" Guid="{C8E1F952-2701-4F60-8420-5DCE61743E95}">
+									<!-- Add runtime files here -->
+									<File Id="RuntimeFile17"  Source="TerminalTools\runtimes\browser-wasm\nativeassets\net7.0\e_sqlcipher.a" />
+								</Component>
+							</Directory>
+							</Directory>
+						</Directory>
+				
+	
+					
+				
+		
+		
+					</Directory>				
+				</Directory>
+						<Component Id="configFileComp" Guid="{69561931-4155-4C29-BE43-64FC3E7549BB}">
+									<!-- Add localized files here -->
+									<File Id="configFile" Source="BillConfig.xml" />
+								</Component>
+				
+					</Directory>
+		
+
+		
+      <!-- Start Menu Shortcuts -->
+		<Directory Id="ProgramMenuFolder" Name="Programs">
+			<Directory Id="MyAppProgramMenuDir" Name="Terminal App">
+				<!-- Component for Terminal.exe Shortcut -->
+				<Component Id="ApplicationShortcut1" Guid="{D1C28BE9-CAE3-4149-A896-E31373D9CE39}">
+					<Shortcut
+						Id="StartMenuShortcut1"
+						Name="Terminal"
+						Description="Terminal Application"
+						Target="[TOOLSDIR]Terminal.exe"
+						WorkingDirectory="INSTALLFOLDER" />
+					<RemoveFolder Id="RemoveProgramMenuDir1" Directory="MyAppProgramMenuDir" On="uninstall"/>
+					<RegistryValue Root="HKCU" Key="Software\Rashid\Terminal" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+				</Component>
+
+				<!-- Component for PrinterSettingsTool.exe Shortcut -->
+				<Component Id="ApplicationShortcut2" Guid="{A2E08B7E-DBF5-4E5D-A8D7-BDFCE6E1DEFB}">
+					<Shortcut
+						Id="StartMenuShortcut2"
+						Name="PrinterSettingsTool"
+						Description="Printer Settings Tool"
+						Target="[TOOLSDIR]PrinterSettingsTool.exe"
+						WorkingDirectory="INSTALLFOLDER" />
+					<RemoveFolder Id="RemoveProgramMenuDir2" Directory="MyAppProgramMenuDir" On="uninstall"/>
+					<RegistryValue Root="HKCU" Key="Software\Rashid\PrinterSettingsTool" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+				</Component>
+			
+			<!-- Component for DailyReceipts.exe Shortcut -->
+				<Component Id="ApplicationShortcut3" Guid="{C6A80D1F-12C8-4375-BB94-7E79056F7913}">
+					<Shortcut
+						Id="StartMenuShortcut3"
+						Name="DailyReceipts"
+						Description="DailyReceipts Application"
+						Target="[TOOLSDIR]DailyReceipts.exe"
+						WorkingDirectory="INSTALLFOLDER" />
+					<RemoveFolder Id="RemoveProgramMenuDir3" Directory="MyAppProgramMenuDir" On="uninstall"/>
+					<RegistryValue Root="HKCU" Key="Software\Rashid\DailyReceipts" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+				</Component>
+				
+				<!-- Component for RashidConfiguration.exe Shortcut -->
+				<Component Id="ApplicationShortcut4" Guid="{5334332E-C377-4619-8D93-BF17E81B4209}">
+					<Shortcut
+						Id="StartMenuShortcut4"
+						Name="RashidConfiguration"
+						Description="RashidConfiguration Application"
+						Target="[TOOLSDIR]RashidConfiguration.exe"
+						WorkingDirectory="INSTALLFOLDER" />
+					<RemoveFolder Id="RemoveProgramMenuDir4" Directory="MyAppProgramMenuDir" On="uninstall"/>
+					<RegistryValue Root="HKCU" Key="Software\Rashid\RashidConfiguration" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+				</Component>
+
+			</Directory>
+		</Directory>
+  
+
+		
+    </StandardDirectory>
+  </Fragment>
+	<Fragment>
+		<Component Id="ApplicationRegistryMachine" Guid="{1E102D55-5BD7-404F-98F7-E65766867E5B}">
+			<Shortcut
+					Id="Regshort"
+					Name="reg"
+					Description="Terminal Application"
+					Target="[INSTALLFOLDER]"
+					WorkingDirectory="INSTALLFOLDER" />
+			<RegistryValue Root="HKCU" Key="Software\Rashid" Name="ConfigPath" Type="string" Value="[INSTALLFOLDER]BillConfig.xml" KeyPath="yes"/>
+			<RegistryValue Root="HKCU" Key="Software\Rashid" Name="PrinterPath" Type="string" Value="C:\Program Files\XML Printer\xmlprn.exe" KeyPath="no"/>
+		</Component>
+			
+</Fragment>
+ <Fragment>
+    <Feature Id="MainFeature" Title="Main Application" Level="1">
+      <ComponentRef Id="MainExecutable" />
+	<ComponentRef Id="DeLocaleComponent1" />
+	<ComponentRef Id="EsLocaleComponent2" />
+	<ComponentRef Id="DeLocaleComponent3" />
+	<ComponentRef Id="RuntimesComponentx86" />
+		<ComponentRef Id="RuntimesComponentx64" />
+		<ComponentRef Id="RuntimesComponentwin"/>
+		<ComponentRef Id="RuntimesComponentwasm"/>
+		<ComponentRef Id="RuntimesComponentwinarm64"/>
+		<ComponentRef Id="RuntimesComponentwinarm"/>
+		<ComponentRef Id="zhHantComponent1"/>
+		<ComponentRef Id="zhHansComponent1"/>
+		<ComponentRef Id="configFileComp"/>
+	
+    </Feature>
+	 
+ <Feature Id="MainApplicationFeature" Title="Terminal Tools" Level="1">
+  <ComponentRef Id="ApplicationShortcut1" />
+ <ComponentRef Id="ApplicationShortcut2" />
+ <ComponentRef Id="ApplicationShortcut3" />
+ <ComponentRef Id="ApplicationShortcut4" />
+  <ComponentRef Id="ApplicationRegistryMachine" />
+</Feature>
+
+  </Fragment>
+</Wix>

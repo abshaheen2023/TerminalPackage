@@ -1,0 +1,8 @@
+E:\Repos\VirtualPrinter\TerminalPackage\TerminalPackage\obj\x86\Release\TerminalPackage.wixproj.CoreCompileInputs.cache
+E:\Repos\VirtualPrinter\TerminalPackage\TerminalPackage\bin\x86\Release\en-US\TerminalPackage.msi
+E:\Repos\VirtualPrinter\TerminalPackage\TerminalPackage\bin\x86\Release\en-US\cab1.cab
+E:\Repos\VirtualPrinter\TerminalPackage\TerminalPackage\bin\x86\Release\en-US\TerminalPackage.wixpdb
+E:\Repos\VirtualPrinter\TerminalPackage\TerminalPackage\obj\x86\Release\en-US\cab1.cab
+E:\Repos\VirtualPrinter\TerminalPackage\TerminalPackage\obj\x86\Release\en-US\TerminalPackage.msi
+E:\Repos\VirtualPrinter\TerminalPackage\TerminalPackage\obj\x86\Release\en-US\TerminalPackage.wixpdb
+E:\Repos\VirtualPrinter\TerminalPackage\TerminalPackage\obj\x86\Release\TerminalPackage.wixproj.BindTracking-en-US.txt

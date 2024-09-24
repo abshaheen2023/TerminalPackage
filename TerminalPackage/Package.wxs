@@ -1,0 +1,27 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Name="TerminalPackage" Manufacturer="Masr Manufacturer" Version="1.0.0.5" UpgradeCode="37708bcf-bb2d-4c94-898a-a3f91fc07918">
+    <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+	  <Feature Id="MainFeature" Title="Main Application" Level="1">
+		  <ComponentRef Id="MainExecutable" />
+		  <ComponentRef Id="DeLocaleComponent1" />
+		  <ComponentRef Id="EsLocaleComponent2" />
+		  <ComponentRef Id="DeLocaleComponent3" />
+		  <ComponentRef Id="RuntimesComponentx86" />
+		  <ComponentRef Id="RuntimesComponentx64" />
+		  <ComponentRef Id="RuntimesComponentwin"/>
+		  <ComponentRef Id="RuntimesComponentwasm"/>
+		  <ComponentRef Id="RuntimesComponentwinarm64"/>
+		  <ComponentRef Id="RuntimesComponentwinarm"/>
+		  <ComponentRef Id="zhHantComponent1"/>
+		  <ComponentRef Id="zhHansComponent1"/>
+		  <ComponentRef Id="configFileComp"/>
+	  </Feature>
+	  <Feature Id="MainApplicationFeature" Title="Terminal Tools" Level="1">
+		  <ComponentRef Id="ApplicationShortcut1" />
+		  <ComponentRef Id="ApplicationShortcut2" />
+		  <ComponentRef Id="ApplicationShortcut3" />
+		  <ComponentRef Id="ApplicationShortcut4" />
+		   <ComponentRef Id="ApplicationRegistryMachine" />
+	  </Feature>
+  </Package>
+</Wix>

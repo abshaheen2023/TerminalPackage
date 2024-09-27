@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Repos\\V_1.0.4_TerminalPackage2\\TerminalPackage\\TerminalPackage.wixproj": {}
+    "F:\\Repos\\TerminalPackageMain\\TerminalPackage\\TerminalPackage.wixproj": {}
   },
   "projects": {
-    "F:\\Repos\\V_1.0.4_TerminalPackage2\\TerminalPackage\\TerminalPackage.wixproj": {
+    "F:\\Repos\\TerminalPackageMain\\TerminalPackage\\TerminalPackage.wixproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Repos\\V_1.0.4_TerminalPackage2\\TerminalPackage\\TerminalPackage.wixproj",
+        "projectUniqueName": "F:\\Repos\\TerminalPackageMain\\TerminalPackage\\TerminalPackage.wixproj",
         "projectName": "TerminalPackage",
-        "projectPath": "F:\\Repos\\V_1.0.4_TerminalPackage2\\TerminalPackage\\TerminalPackage.wixproj",
+        "projectPath": "F:\\Repos\\TerminalPackageMain\\TerminalPackage\\TerminalPackage.wixproj",
         "packagesPath": "C:\\Users\\kholo\\.nuget\\packages\\",
-        "outputPath": "F:\\Repos\\V_1.0.4_TerminalPackage2\\TerminalPackage\\obj\\",
+        "outputPath": "F:\\Repos\\TerminalPackageMain\\TerminalPackage\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

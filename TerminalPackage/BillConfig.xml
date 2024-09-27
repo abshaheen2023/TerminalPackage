@@ -13,12 +13,16 @@
   <ProductNameEndX>750</ProductNameEndX>
   <ProductUnitStartX>860</ProductUnitStartX>
   <ProductUnitEndX>1030</ProductUnitEndX>
+  <ProductUnitCodeStartX>650</ProductUnitCodeStartX>
+  <ProductUnitCodeEndX>780</ProductUnitCodeEndX>
   <ProductUnitPriceStartX>300</ProductUnitPriceStartX>
   <ProductUnitPriceEndX>390</ProductUnitPriceEndX>
   <ProductUnitQuantStartX>480</ProductUnitQuantStartX>
   <ProductUnitQuantEndX>500</ProductUnitQuantEndX>
   <ProductTotalPriceStartX>200</ProductTotalPriceStartX>
   <ProductTotalPriceEndX>330</ProductTotalPriceEndX>
+  <ProductItemUnitStartX>780</ProductItemUnitStartX>
+  <ProductItemUnitEndX>802</ProductItemUnitEndX>
   <StopLinePhrase>stop</StopLinePhrase>
   <BuyerNameY>667</BuyerNameY>
   <BuyerNameStartX>400</BuyerNameStartX>
@@ -68,7 +72,8 @@
   <XMLFolder></XMLFolder>
   <XPSFolder></XPSFolder>
   <JSONFolder></JSONFolder>
-  <DefaultPhyPrinter></DefaultPhyPrinter>
+  <DefaultPhyPrinter>
+  </DefaultPhyPrinter>
   <selectedPrinter>ChoosingBetweenPrinters</selectedPrinter>
   <RashidPrinterOutputType>XPS</RashidPrinterOutputType>
   <PrinterOutPath></PrinterOutPath>

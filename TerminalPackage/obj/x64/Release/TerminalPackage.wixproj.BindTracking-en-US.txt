@@ -1,6 +1,6 @@
-BuiltContentOutput	F:\Repos\V_1.0.4_TerminalPackage2\TerminalPackage\obj\x64\Release\en-US\cab1.cab
-BuiltPdbOutput	F:\Repos\V_1.0.4_TerminalPackage2\TerminalPackage\obj\x64\Release\en-US\TerminalPackage.wixpdb
-BuiltTargetOutput	F:\Repos\V_1.0.4_TerminalPackage2\TerminalPackage\obj\x64\Release\en-US\TerminalPackage.msi
+BuiltContentOutput	F:\Repos\TerminalPackageMain\TerminalPackage\obj\x64\Release\en-US\cab1.cab
+BuiltPdbOutput	F:\Repos\TerminalPackageMain\TerminalPackage\obj\x64\Release\en-US\TerminalPackage.wixpdb
+BuiltTargetOutput	F:\Repos\TerminalPackageMain\TerminalPackage\obj\x64\Release\en-US\TerminalPackage.msi
 Input	BillConfig.xml
 Input	TerminalTools\Azure.Core.dll
 Input	TerminalTools\Azure.Identity.dll
@@ -78,4 +78,4 @@ Input	TerminalTools\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 Input	TerminalTools\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 Input	TerminalTools\zxing.dll
 Input	TerminalTools\ZXing.Windows.Compatibility.dll
-Intermediate	F:\Repos\V_1.0.4_TerminalPackage2\TerminalPackage\obj\x64\Release\en-US\cab1.cab
+Intermediate	F:\Repos\TerminalPackageMain\TerminalPackage\obj\x64\Release\en-US\cab1.cab

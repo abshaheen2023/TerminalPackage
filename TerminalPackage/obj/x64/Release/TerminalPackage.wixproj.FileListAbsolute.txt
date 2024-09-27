@@ -62,3 +62,11 @@ F:\Repos\V_1.0.4_TerminalPackage2\TerminalPackage\obj\x64\Release\en-US\cab1.cab
 F:\Repos\V_1.0.4_TerminalPackage2\TerminalPackage\obj\x64\Release\en-US\TerminalPackage.msi
 F:\Repos\V_1.0.4_TerminalPackage2\TerminalPackage\obj\x64\Release\en-US\TerminalPackage.wixpdb
 F:\Repos\V_1.0.4_TerminalPackage2\TerminalPackage\obj\x64\Release\TerminalPackage.wixproj.BindTracking-en-US.txt
+F:\Repos\TerminalPackageMain\TerminalPackage\bin\x64\Release\en-US\TerminalPackage.msi
+F:\Repos\TerminalPackageMain\TerminalPackage\bin\x64\Release\en-US\cab1.cab
+F:\Repos\TerminalPackageMain\TerminalPackage\bin\x64\Release\en-US\TerminalPackage.wixpdb
+F:\Repos\TerminalPackageMain\TerminalPackage\obj\x64\Release\TerminalPackage.wixproj.CoreCompileInputs.cache
+F:\Repos\TerminalPackageMain\TerminalPackage\obj\x64\Release\en-US\cab1.cab
+F:\Repos\TerminalPackageMain\TerminalPackage\obj\x64\Release\en-US\TerminalPackage.msi
+F:\Repos\TerminalPackageMain\TerminalPackage\obj\x64\Release\en-US\TerminalPackage.wixpdb
+F:\Repos\TerminalPackageMain\TerminalPackage\obj\x64\Release\TerminalPackage.wixproj.BindTracking-en-US.txt

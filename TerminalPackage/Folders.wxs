@@ -172,10 +172,12 @@
 		
 					</Directory>				
 				</Directory>
-						<Component Id="configFileComp" Guid="{69561931-4155-4C29-BE43-64FC3E7549BB}">
+					<Component Id="configFileComp" Guid="{69561931-4155-4C29-BE43-64FC3E7549BB}">
 									<!-- Add localized files here -->
 									<File Id="configFile" Source="BillConfig.xml" />
 								</Component>
+					
+					
 				
 					</Directory>
 		
